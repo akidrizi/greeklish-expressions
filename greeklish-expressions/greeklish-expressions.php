@@ -4,13 +4,15 @@
  * @version 0.1
  */
 /*
-Plugin Name: Greeklish Expressions Fixer
-Plugin URI: https://github.com/akidrizi/greeklish-expressions
-Description: This plugins solves the issues where posts, pages, taxonomies etc. are saved to the database in Greek letters and creating links in Greek. Creating several issues, most importantly SEO. After activating the plugin, every new term created in Greek will be converted to English letters. To apply to existing terms simply update.
-Author: Akis Idrizi
-Version: 0.1
-Author URI: https://github.com/akidrizi
-Text Domain: greeklish-expressions
+Plugin Name:  Greeklish Expressions Fixer
+Plugin URI:   https://github.com/akidrizi/greeklish-expressions
+Description:  This plugins solves the issues where posts, pages, taxonomies etc. are saved to the database in Greek letters and creating links in Greek.
+Version:      0.1
+Author:       Akis Idrizi
+Author URI:   https://github.com/akidrizi
+License:      GPL2
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  greeklish-expressions
 */
 
 defined('ABSPATH') || exit;
