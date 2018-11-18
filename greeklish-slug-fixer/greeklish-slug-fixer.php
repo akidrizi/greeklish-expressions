@@ -1,18 +1,18 @@
 <?php
 /**
- * @package Greeklish Expressions Fixer 
- * @version 0.1
+ * @package AutoFix Greeklish Permalink 
+ * @version 1.0
  */
 /*
-Plugin Name:  Greeklish Expressions Fixer
-Plugin URI:   https://github.com/akidrizi/greeklish-expressions
-Description:  This plugins solves the issues where posts, pages, taxonomies etc. are saved to the database in Greek letters and creating links in Greek.
-Version:      0.1
+Plugin Name:  AutoFix Greeklish Permalink
+Plugin URI:   https://github.com/akidrizi/greeklish-slug-fixer
+Description:  Solves the issues where  post, page and term slugs are saved in Greek letters by auto converting them to Latin characters.
+Version:      1.0
 Author:       Akis Idrizi
 Author URI:   https://github.com/akidrizi
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  greeklish-expressions
+Text Domain:  greeklish-slug-fixer
 */
 
 defined('ABSPATH') || exit;
@@ -47,7 +47,7 @@ function ai_get_greeklish_expressions() {
         '/[εέΕΈ]/u' => 'e',
         '/[ζΖ]/u' => 'z',
         '/[ηήΗΉ]/u' => 'i',
-        '/[ιίϊΙΊΪ]/u' => 'i',
+        '/[ιίϊΐΙΊΪ]/u' => 'i',
         '/[κΚ]/u' => 'k',
         '/[λΛ]/u' => 'l',
         '/[μΜ]/u' => 'm',
@@ -58,7 +58,7 @@ function ai_get_greeklish_expressions() {
         '/[ρΡ]/u' => 'r',
         '/[σςΣ]/u' => 's',
         '/[τΤ]/u' => 't',
-        '/[υύϋΥΎΫ]/u' => 'y',
+        '/[υύϋΰΥΎΫ]/u' => 'y',
         '/[φΦ]/iu' => 'f',
         '/[ωώ]/iu' => 'o',
     );

@@ -1,5 +1,10 @@
-# Greeklish Expressions Fixer
+# AutoFix Greeklish Permalink - WordPress plugin
 
-This plugin solves the issue where posts, pages, taxonomies etc. are saved to the database in Greek letters and creating links in Greek. Creating several issues, most importantly SEO. 
+Solves the issues where  post, page and term slugs are saved in Greek letters by auto converting them to Latin characters.
 
-After activating the plugin, every new term created in Greek will be converted to English letters. To apply to existing terms simply update.
+### What it does:
+* Converts the permalink of all any new page/post/slug from Greek to Latin automatically.
+* Existing: simply press update on each item you wish to convert to Latin.
+* Plug-and-Play: simply activate and it works, no need to setup.
+
+> #### To install: Download the ZIP and extract greeklish-slug-fixer folder in your wp-content/plugins folder.
